@@ -1,0 +1,15 @@
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\bin\Debug\net8.0\TodoApp.Infrastructure.deps.json
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\bin\Debug\net8.0\TodoApp.Infrastructure.dll
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\bin\Debug\net8.0\TodoApp.Infrastructure.pdb
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\bin\Debug\net8.0\TodoApp.Core.dll
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\bin\Debug\net8.0\TodoApp.Core.pdb
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.AssemblyInfo.cs
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp..D6B2378B.Up2Date
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.dll
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\refint\TodoApp.Infrastructure.dll
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.pdb
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\ref\TodoApp.Infrastructure.dll
