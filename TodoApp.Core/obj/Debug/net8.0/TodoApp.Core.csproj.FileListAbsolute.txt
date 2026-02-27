@@ -10,3 +10,4 @@ C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.dll
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\refint\TodoApp.Core.dll
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.pdb
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\ref\TodoApp.Core.dll
+C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.sourcelink.json

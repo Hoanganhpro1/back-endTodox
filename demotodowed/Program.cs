@@ -37,7 +37,7 @@ builder.Services.AddScoped<ITodoService, TodoService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IEmailService, EmailService>(); // ✅ Thêm dòng này
-
+builder.Services.AddScoped<IAdminService, AdminService>();
 // Configure JWT Authentication
 var jwtSecret = builder.Configuration["Jwt:Secret"];
 var jwtIssuer = builder.Configuration["Jwt:Issuer"];

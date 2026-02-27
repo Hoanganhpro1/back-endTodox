@@ -21,5 +21,7 @@ namespace TodoApp.Core.Entities
 
         // Navigation property
         public ICollection<TodoItem> TodoItems { get; set; } = new List<TodoItem>();
+
+
     }
 }

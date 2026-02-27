@@ -13,3 +13,4 @@ C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infra
 C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\refint\TodoApp.Infrastructure.dll
 C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.pdb
 C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\ref\TodoApp.Infrastructure.dll
+C:\Học Hành\demotodowed\TodoApp.Infrastructure\obj\Debug\net8.0\TodoApp.Infrastructure.sourcelink.json

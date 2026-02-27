@@ -105,8 +105,11 @@ namespace TodoApp.API.Controllers
             catch (Exception ex)
             {
                 return BadRequest(new { message = ex.Message });
+
             }
+
         }
+
 
         // ✅ Endpoint Reset Password
         [HttpPost("reset-password")]
@@ -122,5 +125,6 @@ namespace TodoApp.API.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
+                                
     }
 }
