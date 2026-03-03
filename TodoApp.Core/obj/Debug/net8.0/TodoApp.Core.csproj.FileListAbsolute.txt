@@ -6,8 +6,8 @@ C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.GeneratedM
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.AssemblyInfoInputs.cache
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.AssemblyInfo.cs
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.csproj.CoreCompileInputs.cache
+C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.sourcelink.json
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.dll
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\refint\TodoApp.Core.dll
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.pdb
 C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\ref\TodoApp.Core.dll
-C:\Học Hành\demotodowed\TodoApp.Core\obj\Debug\net8.0\TodoApp.Core.sourcelink.json

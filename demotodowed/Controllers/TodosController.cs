@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TodoApp.Core.DTOs;
 using TodoApp.Core.Services;
+using Serilog; // ✅ Thêm logging
 
 namespace TodoApp.API.Controllers
 {
@@ -22,12 +23,11 @@ namespace TodoApp.API.Controllers
             _todoService = todoService;
         }
 
-        // ✅ User xem todos của mình, Admin xem tất cả
+        // ✅ MỌI USER (kể cả Admin) chỉ xem todos của CHÍNH MÌNH
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoDto>>> GetTodos([FromQuery] string timeFilter = "all")
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
 
             if (string.IsNullOrEmpty(userIdClaim))
             {
@@ -36,17 +36,10 @@ namespace TodoApp.API.Controllers
 
             var userId = int.Parse(userIdClaim);
 
-            IEnumerable<TodoDto> todos;
+            Log.Information("User {UserId} fetching their todos with timeFilter: {TimeFilter}", userId, timeFilter);
 
-            // Admin xem tất cả, User chỉ xem của mình
-            if (userRole == "Admin")
-            {
-                todos = await _todoService.GetAllTodosAsync();
-            }
-            else
-            {
-                todos = await _todoService.GetTodosByUserIdAsync(userId);
-            }
+            // ✅ KHÔNG phân biệt Admin hay User - ai cũng chỉ thấy của mình
+            var todos = await _todoService.GetTodosByUserIdAsync(userId);
 
             // Filter theo thời gian
             var filteredTodos = FilterByTime(todos, timeFilter);
@@ -80,46 +73,30 @@ namespace TodoApp.API.Controllers
             }
         }
 
+        // ✅ Completed todos - chỉ của user hiện tại
         [HttpGet("completed")]
         public async Task<ActionResult<IEnumerable<TodoDto>>> GetCompletedTodos()
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
             var userId = int.Parse(userIdClaim!);
 
-            IEnumerable<TodoDto> todos;
-
-            if (userRole == "Admin")
-            {
-                todos = await _todoService.GetCompletedTodosAsync();
-            }
-            else
-            {
-                todos = (await _todoService.GetTodosByUserIdAsync(userId))
-                    .Where(t => t.Status.ToLower() == "completed");
-            }
+            // ✅ Ai cũng chỉ thấy completed todos của mình
+            var todos = (await _todoService.GetTodosByUserIdAsync(userId))
+                .Where(t => t.Status.ToLower() == "completed");
 
             return Ok(todos);
         }
 
+        // ✅ Pending todos - chỉ của user hiện tại
         [HttpGet("pending")]
         public async Task<ActionResult<IEnumerable<TodoDto>>> GetPendingTodos()
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
             var userId = int.Parse(userIdClaim!);
 
-            IEnumerable<TodoDto> todos;
-
-            if (userRole == "Admin")
-            {
-                todos = await _todoService.GetPendingTodosAsync();
-            }
-            else
-            {
-                todos = (await _todoService.GetTodosByUserIdAsync(userId))
-                    .Where(t => t.Status.ToLower() == "active");
-            }
+            // ✅ Ai cũng chỉ thấy pending todos của mình
+            var todos = (await _todoService.GetTodosByUserIdAsync(userId))
+                .Where(t => t.Status.ToLower() == "active");
 
             return Ok(todos);
         }
@@ -130,6 +107,8 @@ namespace TodoApp.API.Controllers
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var userId = int.Parse(userIdClaim!);
+
+            Log.Information("User {UserId} creating todo: {Title}", userId, createTodoDto.Title);
 
             var todo = await _todoService.CreateTodoAsync(createTodoDto, userId);
             return CreatedAtAction(nameof(GetTodo), new { id = todo.Id }, todo);
@@ -149,9 +128,12 @@ namespace TodoApp.API.Controllers
 
                 if (userRole != "Admin" && todo.UserId != userId)
                 {
+                    Log.Warning("User {UserId} attempted to update todo {TodoId} owned by user {OwnerId}", 
+                        userId, id, todo.UserId);
                     return Forbid();
                 }
 
+                Log.Information("User {UserId} updating todo {TodoId}", userId, id);
                 await _todoService.UpdateTodoAsync(id, updateTodoDto);
                 return NoContent();
             }
@@ -175,9 +157,12 @@ namespace TodoApp.API.Controllers
 
                 if (userRole != "Admin" && todo.UserId != userId)
                 {
+                    Log.Warning("User {UserId} attempted to delete todo {TodoId} owned by user {OwnerId}", 
+                        userId, id, todo.UserId);
                     return Forbid();
                 }
 
+                Log.Information("User {UserId} deleting todo {TodoId}", userId, id);
                 await _todoService.DeleteTodoAsync(id);
                 return NoContent();
             }
@@ -187,7 +172,7 @@ namespace TodoApp.API.Controllers
             }
         }
 
-        // ✅ User chỉ toggle todo của mình
+        // ✅ User chỉ toggle todo của mình, Admin toggle được tất cả
         [HttpPatch("{id}/toggle")]
         public async Task<ActionResult<TodoDto>> ToggleTodoStatus(int id)
         {
@@ -201,9 +186,12 @@ namespace TodoApp.API.Controllers
 
                 if (userRole != "Admin" && todo.UserId != userId)
                 {
+                    Log.Warning("User {UserId} attempted to toggle todo {TodoId} owned by user {OwnerId}", 
+                        userId, id, todo.UserId);
                     return Forbid();
                 }
 
+                Log.Information("User {UserId} toggling todo {TodoId}", userId, id);
                 var updatedTodo = await _todoService.ToggleTodoStatusAsync(id);
                 return Ok(updatedTodo);
             }

@@ -4,12 +4,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TodoApp.Core.Services;
+using TodoApp.Core.Common;
+using Serilog;
 
 namespace TodoApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")] // Chỉ Admin mới được truy cập
+    [Authorize(Roles = "Admin")]
     public class AdminController : ControllerBase
     {
         private readonly IAdminService _adminService;
@@ -19,27 +21,82 @@ namespace TodoApp.API.Controllers
             _adminService = adminService;
         }
 
-        // GET: api/Admin/users
         [HttpGet("users")]
-        public async Task<IActionResult> GetAllUsers()
+        public async Task<IActionResult> GetAllUsers(
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 20,
+            [FromQuery] string? searchTerm = null,
+            [FromQuery] string? sortBy = null,
+            [FromQuery] bool sortDescending = false
+        )
         {
             try
             {
-                var users = await _adminService.GetAllUsersAsync();
-                return Ok(users);
+                Log.Information("Admin fetching users. Page: {Page}, PageSize: {PageSize}, Search: {SearchTerm}", 
+                    page, pageSize, searchTerm);
+
+                var paginationParams = new PaginationParams
+                {
+                    Page = page,
+                    PageSize = pageSize,
+                    SearchTerm = searchTerm,
+                    SortBy = sortBy,
+                    SortDescending = sortDescending
+                };
+
+                var result = await _adminService.GetAllUsersAsync(paginationParams);
+                
+                return Ok(result);
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Error fetching users");
                 return StatusCode(500, new { message = ex.Message });
             }
         }
 
-        // GET: api/Admin/users/5
+
+        [HttpGet("todos")]
+        public async Task<IActionResult> GetAllTodos(
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 20,
+            [FromQuery] string? searchTerm = null,
+            [FromQuery] string? sortBy = null,
+            [FromQuery] bool sortDescending = false
+        )
+        {
+            try
+            {
+                Log.Information("Admin fetching todos. Page: {Page}, PageSize: {PageSize}, Search: {SearchTerm}", 
+                    page, pageSize, searchTerm);
+
+                var paginationParams = new PaginationParams
+                {
+                    Page = page,
+                    PageSize = pageSize,
+                    SearchTerm = searchTerm,
+                    SortBy = sortBy,
+                    SortDescending = sortDescending
+                };
+
+                var result = await _adminService.GetAllTodosAsync(paginationParams);
+                
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "Error fetching todos");
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
         [HttpGet("users/{id}")]
         public async Task<IActionResult> GetUserDetail(int id)
         {
             try
             {
+                Log.Information("Admin fetching user detail. UserId: {UserId}", id);
+                
                 var userDetail = await _adminService.GetUserDetailAsync(id);
                 return Ok(userDetail);
             }
@@ -49,24 +106,25 @@ namespace TodoApp.API.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Error fetching user detail");
                 return StatusCode(500, new { message = ex.Message });
             }
         }
 
-        // PATCH: api/Admin/users/5/toggle-status
         [HttpPatch("users/{id}/toggle-status")]
         public async Task<IActionResult> ToggleUserStatus(int id)
         {
             try
             {
-                // Lấy userId của admin đang login
                 var currentUserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-
-                // Admin không thể khóa chính mình
+                
                 if (currentUserId == id.ToString())
                 {
                     return BadRequest(new { message = "You cannot lock/unlock yourself" });
                 }
+
+                Log.Warning("Admin toggling user status. UserId: {UserId}, AdminId: {AdminId}", 
+                    id, currentUserId);
 
                 var user = await _adminService.ToggleUserStatusAsync(id);
                 return Ok(user);
@@ -77,24 +135,25 @@ namespace TodoApp.API.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Error toggling user status");
                 return StatusCode(500, new { message = ex.Message });
             }
         }
 
-        // DELETE: api/Admin/users/5
         [HttpDelete("users/{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             try
             {
-                // Lấy userId của admin đang login
                 var currentUserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-
-                // Admin không thể xóa chính mình
+                
                 if (currentUserId == id.ToString())
                 {
                     return BadRequest(new { message = "You cannot delete yourself" });
                 }
+
+                Log.Warning("Admin deleting user. UserId: {UserId}, AdminId: {AdminId}", 
+                    id, currentUserId);
 
                 await _adminService.DeleteUserAsync(id);
                 return Ok(new { message = "User deleted successfully" });
@@ -105,11 +164,11 @@ namespace TodoApp.API.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Error deleting user");
                 return StatusCode(500, new { message = ex.Message });
             }
         }
 
-        // GET: api/Admin/stats
         [HttpGet("stats")]
         public async Task<IActionResult> GetDashboardStats()
         {
@@ -120,6 +179,7 @@ namespace TodoApp.API.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Error fetching dashboard stats");
                 return StatusCode(500, new { message = ex.Message });
             }
         }

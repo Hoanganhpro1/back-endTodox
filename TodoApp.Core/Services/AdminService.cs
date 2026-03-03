@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TodoApp.Core.DTOs;
 using TodoApp.Core.Interfaces;
+using TodoApp.Core.Common;
 
 namespace TodoApp.Core.Services
 {
@@ -18,12 +19,12 @@ namespace TodoApp.Core.Services
             _todoRepository = todoRepository;
         }
 
-        public async Task<IEnumerable<AdminUserDto>> GetAllUsersAsync()
+        public async Task<PagedResult<AdminUserDto>> GetAllUsersAsync(PaginationParams paginationParams)
         {
             var users = await _userRepository.GetAllAsync();
             var todos = await _todoRepository.GetAllAsync();
 
-            return users.Select(user => new AdminUserDto
+            var usersQuery = users.Select(user => new AdminUserDto
             {
                 Id = user.Id,
                 Username = user.Username,
@@ -32,7 +33,97 @@ namespace TodoApp.Core.Services
                 IsActive = user.IsActive,
                 CreatedAt = user.CreatedAt,
                 TodoCount = todos.Count(t => t.UserId == user.Id)
-            }).OrderBy(u => u.CreatedAt);
+            }).AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(paginationParams.SearchTerm))
+            {
+                var searchTerm = paginationParams.SearchTerm.ToLower();
+                usersQuery = usersQuery.Where(u =>
+                    u.Username.ToLower().Contains(searchTerm) ||
+                    u.Email.ToLower().Contains(searchTerm)
+                );
+            }
+
+            usersQuery = paginationParams.SortBy?.ToLower() switch
+            {
+                "username" => paginationParams.SortDescending
+                    ? usersQuery.OrderByDescending(u => u.Username)
+                    : usersQuery.OrderBy(u => u.Username),
+                "email" => paginationParams.SortDescending
+                    ? usersQuery.OrderByDescending(u => u.Email)
+                    : usersQuery.OrderBy(u => u.Email),
+                "createdat" => paginationParams.SortDescending
+                    ? usersQuery.OrderByDescending(u => u.CreatedAt)
+                    : usersQuery.OrderBy(u => u.CreatedAt),
+                _ => usersQuery.OrderBy(u => u.CreatedAt)
+            };
+
+            var totalCount = usersQuery.Count();
+
+            var items = usersQuery
+                .Skip((paginationParams.Page - 1) * paginationParams.PageSize)
+                .Take(paginationParams.PageSize)
+                .ToList();
+
+            return new PagedResult<AdminUserDto>
+            {
+                Items = items,
+                Page = paginationParams.Page,
+                PageSize = paginationParams.PageSize,
+                TotalCount = totalCount,
+                TotalPages = (int)Math.Ceiling(totalCount / (double)paginationParams.PageSize)
+            };
+        }
+
+        public async Task<PagedResult<TodoDto>> GetAllTodosAsync(PaginationParams paginationParams)
+        {
+            var todos = await _todoRepository.GetAllAsync();
+
+            var todosQuery = todos.Select(todo => new TodoDto
+            {
+                Id = todo.Id,
+                Title = todo.Title,
+                Status = todo.Status.ToString().ToLower(),
+                CompletedAt = todo.CompletedAt,
+                CreatedAt = todo.CreatedAt,
+                UserId = todo.UserId
+            }).AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(paginationParams.SearchTerm))
+            {
+                var searchTerm = paginationParams.SearchTerm.ToLower();
+                todosQuery = todosQuery.Where(t => t.Title.ToLower().Contains(searchTerm));
+            }
+
+            todosQuery = paginationParams.SortBy?.ToLower() switch
+            {
+                "title" => paginationParams.SortDescending
+                    ? todosQuery.OrderByDescending(t => t.Title)
+                    : todosQuery.OrderBy(t => t.Title),
+                "status" => paginationParams.SortDescending
+                    ? todosQuery.OrderByDescending(t => t.Status)
+                    : todosQuery.OrderBy(t => t.Status),
+                "createdat" => paginationParams.SortDescending
+                    ? todosQuery.OrderByDescending(t => t.CreatedAt)
+                    : todosQuery.OrderBy(t => t.CreatedAt),
+                _ => todosQuery.OrderByDescending(t => t.CreatedAt)
+            };
+
+            var totalCount = todosQuery.Count();
+
+            var items = todosQuery
+                .Skip((paginationParams.Page - 1) * paginationParams.PageSize)
+                .Take(paginationParams.PageSize)
+                .ToList();
+
+            return new PagedResult<TodoDto>
+            {
+                Items = items,
+                Page = paginationParams.Page,
+                PageSize = paginationParams.PageSize,
+                TotalCount = totalCount,
+                TotalPages = (int)Math.Ceiling(totalCount / (double)paginationParams.PageSize)
+            };
         }
 
         public async Task<AdminUserDto> ToggleUserStatusAsync(int userId)
@@ -44,11 +135,9 @@ namespace TodoApp.Core.Services
                 throw new KeyNotFoundException($"User with id {userId} not found");
             }
 
-            // Toggle status
             user.IsActive = !user.IsActive;
             await _userRepository.UpdateAsync(user);
 
-            // Get todo count
             var todos = await _todoRepository.GetByUserIdAsync(userId);
 
             return new AdminUserDto
