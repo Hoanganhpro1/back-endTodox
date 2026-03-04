@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.tests\\repositories\\todorepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|solutionrelative:todoapp.tests\\repositories\\todorepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.tests\\repositories\\userrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|solutionrelative:todoapp.tests\\repositories\\userrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{336709E0-0B08-47C6-B555-64E8C97EAD49}|TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{336709E0-0B08-47C6-B555-64E8C97EAD49}|TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|solutionrelative:todoapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.tests\\services\\todoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|solutionrelative:todoapp.tests\\services\\todoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.tests\\services\\adminservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|solutionrelative:todoapp.tests\\services\\adminservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.tests\\services\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|solutionrelative:todoapp.tests\\services\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|solutionrelative:todoapp.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|solutionrelative:todoapp.core\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|solutionrelative:todoapp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.tests\\todoapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2D290BA-5B98-49F9-932B-C89155CED802}|TodoApp.Tests\\TodoApp.Tests.csproj|solutionrelative:todoapp.tests\\todoapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\demotodowed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|solutionrelative:demotodowed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\demotodowed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|solutionrelative:demotodowed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\demotodowed\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|solutionrelative:demotodowed\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|solutionrelative:todoapp.core\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{336709E0-0B08-47C6-B555-64E8C97EAD49}|TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{336709E0-0B08-47C6-B555-64E8C97EAD49}|TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|solutionrelative:todoapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{336709E0-0B08-47C6-B555-64E8C97EAD49}|TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.infrastructure\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{336709E0-0B08-47C6-B555-64E8C97EAD49}|TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|solutionrelative:todoapp.infrastructure\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\common\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|solutionrelative:todoapp.core\\common\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|solutionrelative:todoapp.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\demotodowed\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|solutionrelative:todoapp.core\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\demotodowed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|solutionrelative:demotodowed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|solutionrelative:todoapp.core\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -108,10 +140,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\demotodowed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A763DFA4-D7B9-47EE-B4D8-EDF4C6B8E914}|demotodowed\\demotodowed.csproj|solutionrelative:demotodowed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E65067AE-48D8-40BB-9646-F51202B5D111}|TodoApp.Core\\TodoApp.Core.csproj|c:\\h\u1ECDc h\u00E0nh\\demotodowed\\todoapp.core\\todoapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -169,89 +197,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\IAdminService.cs",
-              "RelativeDocumentMoniker": "TodoApp.Core\\Services\\IAdminService.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\IAdminService.cs",
-              "RelativeToolTip": "TodoApp.Core\\Services\\IAdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TodoRepositoryTests.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Repositories\\TodoRepositoryTests.cs",
+              "RelativeDocumentMoniker": "TodoApp.Tests\\Repositories\\TodoRepositoryTests.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Repositories\\TodoRepositoryTests.cs",
+              "RelativeToolTip": "TodoApp.Tests\\Repositories\\TodoRepositoryTests.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAIwJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T19:27:30.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PagedResult.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PagedResult.cs",
-              "RelativeDocumentMoniker": "TodoApp.Core\\Common\\PagedResult.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PagedResult.cs",
-              "RelativeToolTip": "TodoApp.Core\\Common\\PagedResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T19:22:01.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaginationParams.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PaginationParams.cs",
-              "RelativeDocumentMoniker": "TodoApp.Core\\Common\\PaginationParams.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PaginationParams.cs",
-              "RelativeToolTip": "TodoApp.Core\\Common\\PaginationParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T19:21:31.03Z",
+              "WhenOpened": "2026-03-04T19:19:14.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\AdminService.cs",
-              "RelativeDocumentMoniker": "TodoApp.Core\\Services\\AdminService.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\AdminService.cs",
-              "RelativeToolTip": "TodoApp.Core\\Services\\AdminService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwNwAAAABAAAAAAAAAA==",
+              "Title": "UserRepositoryTests.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Repositories\\UserRepositoryTests.cs",
+              "RelativeDocumentMoniker": "TodoApp.Tests\\Repositories\\UserRepositoryTests.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Repositories\\UserRepositoryTests.cs",
+              "RelativeToolTip": "TodoApp.Tests\\Repositories\\UserRepositoryTests.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowBMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:13:56.048Z",
+              "WhenOpened": "2026-03-04T19:04:27.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TodoRepository.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
-              "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
-              "RelativeToolTip": "TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwE8AAAABAAAAAAAAAA==",
+              "Title": "AdminServiceTests.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Services\\AdminServiceTests.cs",
+              "RelativeDocumentMoniker": "TodoApp.Tests\\Services\\AdminServiceTests.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Services\\AdminServiceTests.cs",
+              "RelativeToolTip": "TodoApp.Tests\\Services\\AdminServiceTests.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAIwB0BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T18:58:29.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "demotodowed\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "demotodowed\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowEgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:14:31.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T19:03:13.083Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TodoServiceTests.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Services\\TodoServiceTests.cs",
+              "RelativeDocumentMoniker": "TodoApp.Tests\\Services\\TodoServiceTests.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Services\\TodoServiceTests.cs",
+              "RelativeToolTip": "TodoApp.Tests\\Services\\TodoServiceTests.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAA5wFwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:48:42.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Services\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "TodoApp.Tests\\Services\\AuthServiceTests.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\Services\\AuthServiceTests.cs",
+              "RelativeToolTip": "TodoApp.Tests\\Services\\AuthServiceTests.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:31:18.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TodoApp.Tests.csproj",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\TodoApp.Tests.csproj",
+              "RelativeDocumentMoniker": "TodoApp.Tests\\TodoApp.Tests.csproj",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\TodoApp.Tests.csproj",
+              "RelativeToolTip": "TodoApp.Tests\\TodoApp.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T17:27:46.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TodoApp.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "TodoApp.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:27:47.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Data\\ApplicationDbContext.cs",
@@ -259,25 +295,131 @@
               "RelativeToolTip": "TodoApp.Infrastructure\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwFEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T17:27:33.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-25T17:27:33.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TodoRepository.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
+              "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
+              "RelativeToolTip": "TodoApp.Infrastructure\\Repositories\\TodoRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:58:29.157Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "TodoApp.Core\\Services\\TodoService.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\TodoService.cs",
+              "RelativeToolTip": "TodoApp.Core\\Services\\TodoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:55:16.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Services\\AuthService.cs",
               "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\AuthService.cs",
               "RelativeToolTip": "TodoApp.Core\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAK4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAANoAAAAAAAAAAADwv/0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:37:30.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:37:30.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "TodoApp.Core\\Services\\AdminService.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\AdminService.cs",
+              "RelativeToolTip": "TodoApp.Core\\Services\\AdminService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwNwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T04:13:56.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaginationParams.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PaginationParams.cs",
+              "RelativeDocumentMoniker": "TodoApp.Core\\Common\\PaginationParams.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PaginationParams.cs",
+              "RelativeToolTip": "TodoApp.Core\\Common\\PaginationParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T19:21:31.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "demotodowed\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "demotodowed\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowEgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T04:14:31.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\appsettings.json",
+              "RelativeDocumentMoniker": "demotodowed\\appsettings.json",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\appsettings.json",
+              "RelativeToolTip": "demotodowed\\appsettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-25T17:32:05.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Program.cs",
+              "RelativeDocumentMoniker": "demotodowed\\Program.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Program.cs",
+              "RelativeToolTip": "demotodowed\\Program.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAIwIIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T17:37:30.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PagedResult.cs",
+              "RelativeDocumentMoniker": "TodoApp.Core\\Common\\PagedResult.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Common\\PagedResult.cs",
+              "RelativeToolTip": "TodoApp.Core\\Common\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T19:22:01.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "TodoApp.Core\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\IAdminService.cs",
+              "RelativeToolTip": "TodoApp.Core\\Services\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T19:27:30.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "TodoDto.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\DTOs\\TodoDto.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\DTOs\\TodoDto.cs",
@@ -285,12 +427,11 @@
               "RelativeToolTip": "TodoApp.Core\\DTOs\\TodoDto.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T18:54:13.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-25T18:54:13.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "AdminDtos.cs.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\DTOs\\AdminDtos.cs.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\DTOs\\AdminDtos.cs.cs",
@@ -298,12 +439,11 @@
               "RelativeToolTip": "TodoApp.Core\\DTOs\\AdminDtos.cs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:12:42.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T04:12:42.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "TodosController.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Controllers\\TodosController.cs",
               "RelativeDocumentMoniker": "demotodowed\\Controllers\\TodosController.cs",
@@ -311,12 +451,11 @@
               "RelativeToolTip": "demotodowed\\Controllers\\TodosController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA1wDEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T18:59:34.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-25T18:59:34.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "ITodoService.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\ITodoService.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Services\\ITodoService.cs",
@@ -324,37 +463,11 @@
               "RelativeToolTip": "TodoApp.Core\\Services\\ITodoService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T18:54:50.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-25T18:54:50.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\appsettings.json",
-              "RelativeDocumentMoniker": "demotodowed\\appsettings.json",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\appsettings.json",
-              "RelativeToolTip": "demotodowed\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-25T17:32:05.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TodoService.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\TodoService.cs",
-              "RelativeDocumentMoniker": "TodoApp.Core\\Services\\TodoService.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\TodoService.cs",
-              "RelativeToolTip": "TodoApp.Core\\Services\\TodoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T18:55:16.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\IEmailService.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Services\\IEmailService.cs",
@@ -366,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Services\\IAuthService.cs",
@@ -378,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Interfaces\\IRepository.cs",
@@ -390,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "ITodoRepository.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Interfaces\\ITodoRepository.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Interfaces\\ITodoRepository.cs",
@@ -402,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Interfaces\\IUserRepository.cs",
@@ -414,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "TodoStatus.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Enums\\TodoStatus.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Enums\\TodoStatus.cs",
@@ -426,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "demotodowed\\Controllers\\AuthController.cs",
@@ -438,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "AuthDtos.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\DTOs\\AuthDtos.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\DTOs\\AuthDtos.cs",
@@ -450,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "TodoItem.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Entities\\TodoItem.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Entities\\TodoItem.cs",
@@ -462,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Entities\\User.cs",
@@ -474,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Repositories\\UserRepository.cs",
@@ -486,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Services\\EmailService.cs",
@@ -498,19 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Program.cs",
-              "RelativeDocumentMoniker": "demotodowed\\Program.cs",
-              "ToolTip": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Program.cs",
-              "RelativeToolTip": "demotodowed\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T17:37:30.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -522,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "TodoApp.Core.csproj",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\TodoApp.Core.csproj",
               "RelativeDocumentMoniker": "TodoApp.Core\\TodoApp.Core.csproj",
@@ -534,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -546,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "20251225193954_InitialCreate.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Migrations\\20251225193954_InitialCreate.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Migrations\\20251225193954_InitialCreate.cs",
@@ -558,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "20260106195952_AddPasswordResetFields.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Migrations\\20260106195952_AddPasswordResetFields.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Migrations\\20260106195952_AddPasswordResetFields.cs",
@@ -570,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "20260104185636_AddUserAuthentication.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Migrations\\20260104185636_AddUserAuthentication.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Migrations\\20260104185636_AddUserAuthentication.cs",
@@ -582,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "20260103003101_UpdateTodoWithStatusEnum.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Migrations\\20260103003101_UpdateTodoWithStatusEnum.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Migrations\\20260103003101_UpdateTodoWithStatusEnum.cs",
@@ -594,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "demotodowed\\AutoMapperProfile.cs",
@@ -606,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "demotodowed\\Properties\\launchSettings.json",
@@ -618,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\demotodowed\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "demotodowed\\WeatherForecast.cs",
@@ -630,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Core\\Class1.cs",
               "RelativeDocumentMoniker": "TodoApp.Core\\Class1.cs",
@@ -642,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "TodoApp.Infrastructure.csproj",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj",
@@ -654,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\H\u1ECDc H\u00E0nh\\demotodowed\\TodoApp.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "TodoApp.Infrastructure\\Class1.cs",

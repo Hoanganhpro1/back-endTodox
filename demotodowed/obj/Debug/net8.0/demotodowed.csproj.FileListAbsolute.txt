@@ -156,3 +156,5 @@ C:\Học Hành\demotodowed\demotodowed\obj\Debug\net8.0\refint\demotodowed.dll
 C:\Học Hành\demotodowed\demotodowed\obj\Debug\net8.0\demotodowed.pdb
 C:\Học Hành\demotodowed\demotodowed\obj\Debug\net8.0\demotodowed.genruntimeconfig.cache
 C:\Học Hành\demotodowed\demotodowed\obj\Debug\net8.0\ref\demotodowed.dll
+C:\Học Hành\demotodowed\demotodowed\bin\Debug\net8.0\AspNetCoreRateLimit.dll
+C:\Học Hành\demotodowed\demotodowed\bin\Debug\net8.0\Newtonsoft.Json.dll

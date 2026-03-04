@@ -36,13 +36,13 @@ namespace TodoApp.Core.Services
             var existingUser = await _userRepository.GetByEmailAsync(registerDto.Email);
             if (existingUser != null)
             {
-                throw new Exception("Email already exists");
+                throw new InvalidOperationException("Email already exists");
             }
 
             var existingUsername = await _userRepository.GetByUsernameAsync(registerDto.Username);
             if (existingUsername != null)
             {
-                throw new Exception("Username already exists");
+                throw new InvalidOperationException("Username already exists");
             }
 
             // Create new user with "User" role by default
@@ -89,13 +89,13 @@ namespace TodoApp.Core.Services
 
             if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash))
             {
-                throw new Exception("Invalid email or password");
+                throw new InvalidOperationException("Invalid email or password");
             }
 
             // Check if user is active
             if (!user.IsActive)
             {
-                throw new Exception("Your account has been locked. Please contact admin.");
+                throw new InvalidOperationException("Your account has been locked. Please contact admin.");
             }
 
             var accessToken = GenerateAccessToken(user);
@@ -128,12 +128,12 @@ namespace TodoApp.Core.Services
 
             if (user == null || user.RefreshTokenExpiryTime <= DateTime.UtcNow)
             {
-                throw new Exception("Invalid or expired refresh token");
+                throw new InvalidOperationException("Invalid or expired refresh token");
             }
 
             if (!user.IsActive)
             {
-                throw new Exception("Your account has been locked");
+                throw new InvalidOperationException("Your account has been locked");
             }
 
             var newAccessToken = GenerateAccessToken(user);
@@ -241,7 +241,7 @@ namespace TodoApp.Core.Services
 
             if (user == null)
             {
-                throw new Exception("Invalid or expired reset token");
+                throw new InvalidOperationException("Invalid or expired reset token");
             }
 
             // Update password

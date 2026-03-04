@@ -3,11 +3,12 @@ using TodoApp.Infrastructure.Data;
 using TodoApp.Core.Interfaces;
 using TodoApp.Infrastructure.Repositories;
 using TodoApp.Core.Services;
-using TodoApp.Infrastructure.Services; // ✅ Thêm
+using TodoApp.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
+using AspNetCoreRateLimit; // ✅ Thêm
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,12 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+
+// ✅ Rate Limiting Configuration
+builder.Services.AddMemoryCache();
+builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting"));
+builder.Services.AddInMemoryRateLimiting();
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
 
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
@@ -36,8 +43,9 @@ builder.Services.AddScoped<ITodoRepository, TodoRepository>();
 builder.Services.AddScoped<ITodoService, TodoService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IEmailService, EmailService>(); // ✅ Thêm dòng này
+builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
+
 // Configure JWT Authentication
 var jwtSecret = builder.Configuration["Jwt:Secret"];
 var jwtIssuer = builder.Configuration["Jwt:Issuer"];
@@ -111,6 +119,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowAll");
+
+// ✅ Rate Limiting Middleware (PHẢI ĐẶT TRƯỚC Authentication)
+app.UseIpRateLimiting();
 
 app.UseAuthentication();
 app.UseAuthorization();
